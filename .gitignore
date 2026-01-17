@@ -1,0 +1,36 @@
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.lock.hcl
+
+# =========================
+# Secrets / Keys
+# =========================
+*.pem
+*.key
+*.pub
+
+# =========================
+# Local build artifacts
+# =========================
+dist/
+install/
+awscli.zip
+
+# =========================
+# Editor & OS files
+# =========================
+*.swp
+*.swo
+.DS_Store
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
