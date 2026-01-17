@@ -75,8 +75,7 @@ Typical variables to configure (in terraform.tfvars or via CLI):
 Common outputs provided:
 - public_instance_ip
 - public_instance_dns
-- vpc_id
-- public_subnet_ids
+
 
 Use `terraform output` to view values.
 
